@@ -1,9 +1,10 @@
-# Basic brainrender Workflow
+# Cell Detection Coordinates
 
-Brainrender is a python program that is best downloaded via pip in a brainrender-specific anaconda environment.  
+Follow the examples described in https://github.com/davisreinaguerra/Wallace-Lab-Brain-Registration-Workflow to obtain a CSV file which contains Allen CCFv3 X, Y, and Z coordinates (* in millimeters) for all cells of a given class in a given brain.  Or if you would like, use the practice data ('some_cells.csv').  
 
+# Installing Brainrender
 
-In an anaconda terminal navigate to whatever directory your python file is in, then create an environment
+In an anaconda terminal, navigate to whatever directory your python file is in, then create an environment for brainrender
 
 ```
 (base) >conda create brainrenderenvironment
@@ -14,7 +15,7 @@ Activate your environment with:
 (base) >conda activate brainrenderenvironment
 ```
 
-Now you need to install brainrender with:
+Once the environment is active, install brainrender with:
 
 ```
 (brainrenderenvironment) >pip install brainrender
