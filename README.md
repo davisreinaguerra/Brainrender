@@ -21,8 +21,11 @@ Once the environment is active, install brainrender with:
 (brainrenderenvironment) >pip install brainrender
 ```
 
-Now all you need to do is run your python code
+# Run the code
+
+In an anaconda terminal with the brainrenderenvironment active, navigate to a folder which contains both the given python file and the csv file of coordinates you want to visualize
 
 ```
 (brainrenderenvironment) >python brainrendertest.py
 ```
+
